@@ -54,9 +54,9 @@ public class Manusia {
         double tunjangan = 0.0;
         if(menikah == true){
             if(jenisKelamin == true) {
-                return 20;
-            } else {
                 return 25;
+            } else {
+                return 20;
             }
         } else {
             return 15;
